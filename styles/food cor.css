@@ -1,0 +1,437 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-family:Helvetica, sans-serif sans-serif;
+}
+.nav{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    padding: 0px 150px 0px 150px;
+}
+.logo{
+    width: auto;
+    height: 60px;
+    line-height: 60px;
+    color: white;
+    font-size: 40px;
+    float: left;
+
+}
+.menu{
+    width: auto;
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+    float: right;
+}
+li{
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    
+
+}
+a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px 0px 10px;
+}
+li:nth-child(1){
+    background-color: red;
+}
+.bannerTextContainer{
+    width: 75%;
+    min-height: 300px ;
+    text-align: right;
+}
+.bannerText{
+    color: white;
+    font-size: 90px ;
+    font-weight: 500;
+
+}
+.bannerText2{
+    color: white;
+    font-size: 60px ;
+}
+.button{
+    width: 170px;
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    float: right;
+}
+/* header end */
+/* about start */
+.box1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 70px;
+    margin: 30px 150px 30px 150px;
+}
+.subBoxHead{
+    font-size: 35px;
+    padding-bottom: 40px;
+}
+.subBoxText{
+    font-size: 20px;
+    padding-bottom: 80px;
+}
+.button2{
+    width: 150px;
+    padding: 10px 0px;
+    background-color: red;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+.images1{
+    width: 80%;
+    height: auto;
+    float: right;
+}
+
+/* our-pop1 */
+.our-pop1{
+    width: 100%;
+    height: auto;
+    background-color: rgb(202, 202, 202);
+
+}
+.heading{
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 40px;
+
+}
+.line{
+    width: 200px;
+    height: 2px;
+    background-color: red;
+    margin: auto;
+    margin-bottom: 5px;
+
+}
+.texte{
+    width: 50%;
+    font-size: 15px;
+    color: rgb(68, 68, 68);
+    text-align: center;
+    margin: auto;
+}
+
+.pop1-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    grid-gap: 30px;
+    margin: 30px 150px 30px 150px;
+
+
+}
+.pop1-flyer{
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 15px rgb(86, 86, 86);
+}
+.dishesImage{
+    width: 100%;
+    height: auto;
+
+}
+.pop-images{
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 35px;
+    
+    
+}
+.pricezz{
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+}
+.name{
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+
+}
+.dots-box{
+    width: 200px;
+    height: 60px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+.dots{
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    background-color: rgb(77, 76, 76);
+
+}
+.dots:hover{
+    border-radius: 15px;
+    background: rgb(212, 104, 104);
+    width: 30px;
+    height: 30px;
+}
+
+/* menu */
+
+.menucontainer{
+    min-height: 250px;
+    margin: 30px 150px 30px 150px;
+}
+.menutop{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 4px 4px 8px rgb(80, 80, 80);
+}
+.image1, .image2{
+    width: 15%;
+    
+}
+.image3{
+    width: 20%;
+
+    float: right;
+}
+.menunav{
+    width: 50%;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+
+}
+.menunav a:hover{
+    color: red;
+}
+.menunav a{
+    font-size: 15px;
+    color: black;
+    padding: 0px 20px;
+    
+}
+.toppic{
+    width: 100%;
+    height: 150px;
+    padding: 15px;
+}
+
+.menubottom{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(700px, 1fr));
+    grid-gap: 40px;
+    margin-top: 20px;
+}
+.menuboxx{
+    height: 100px;
+    box-shadow: 4px 4px 8px rgb(78, 78, 78);
+    display: flex;
+    flex-direction: row;
+}
+.pic{
+    width: 20%;
+    height: 100px;
+    border-right: solid black;
+
+    
+}
+.text{
+    width: 60%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.price{
+    width: 20%;
+    color: red;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+.picsize{
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+
+}
+.subt1{
+    font-size: 30px;
+    font-weight:bold ;
+}
+.subt2{
+    font-size: 25px;
+}
+.btn3{
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    background-color: red;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* gallery section */
+.GalleryBody{
+    width: 100%;
+    height: auto;
+    background-color: rgb(28, 28, 28);
+}
+.Gallery{
+    margin: 0px 150px 0px 150px;
+    padding-bottom: 30px;
+}
+.G-head{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+    margin: 0px 150px;
+}
+.G-line{
+    width: 250px;
+    height: 3px;
+    background-color: red;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.G-nav{
+    text-align: center;
+}
+.G-nav a{
+    font-size: 13px;
+}
+.G-nav a:hover{
+    color: red;
+}
+.G-picContainer{
+    margin: 40px 40px 80px 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px, 1fr));
+    grid-gap: 20px;
+
+}
+.G-photo{
+    width: 100%;
+}
+
+/* reservation section */
+.reservation{
+    width: 100%;
+    min-height: 200px;
+}
+.reserveContainer{
+    margin: 30px 150px 30px 150px;
+}
+.R-head{
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+}
+.R-line{
+    width: 250px;
+    height: 3px;
+    background-color: red;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.R-text{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.R-picSize{
+    width: 100%;
+}
+
+.textt{
+    display: flex;
+    justify-content: center;
+    font-family: 'Fascinate Inline', cursive;
+    font-size: 70px;
+    margin: auto;
+
+}
+
+.icon{
+    margin: auto;
+    font-size: 80px;
+    color: rgb(33, 34, 32);
+    animation-name: icolor;
+    animation-duration: 30s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1) ;
+}
+@keyframes icolor {
+    from {color: rgb(102, 102, 102);}
+   to {color: rgb(0, 0, 0);}
+
+}
+.cart{
+    text-align: center;
+    margin: 0px 150px 0px 150px;
+    border-left: 5px dotted black;
+    border-right: 5px dotted black;
+    margin-bottom: 20px;
+}
+
+/* our pop dishes 2 */
+.dish2{
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 233, 233);
+}
+.dish2container{
+    min-height: 250px;
+    margin: 30px 150px 30px 150px;
+}
+.dishHead{
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+}
+.dishline{
+    width: 250px;
+    height: 3px;
+    background-color: red;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.dishtext{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.dishPhotoBox{
+    height: auto;
+    margin: 40px;
+    display: grid;
+    grid-template-rows:repeat(auto-fit,mimmax(150px, 1fr));
+    grid-gap: 10px;
+}
+.dishPhoto{
+    width: 400px;
+    background-color: blueviolet;
+}
